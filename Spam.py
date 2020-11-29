@@ -23,15 +23,15 @@ NOTE: This tool's only work for Indonesia number phone.
 """)
 		pilih=int(input('noobie/> '))
 		if pilih == 1:
-			import payu
+			import payu.py
 		elif pilih == 2:
-			import matahari
+			import matahari.py
 		elif pilih == 3:
-			import alodok
+			import alodok.py
 		elif pilih == 4:
-			import olx
+			import olx.py
 		elif pilih == 5:
-			import socil
+			import socil.py
 		else: print("[!] lihat menu dong(o)");self.menu()
 
 	def detekos(self):
